@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "54472037214",
+    "project_id": "healnet-d37f5",
+    "storage_bucket": "healnet-d37f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54472037214:android:9f295cbd246e2e348975cf",
+        "android_client_info": {
+          "package_name": "com.example.healnet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBol_07zbccp0_N_hJs-LCOREuuueFpwy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
