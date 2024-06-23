@@ -109,7 +109,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   children: [
 
                     Image.asset(
-                      "assets/uber.png",
+                      "assets/HealNet.png",
                       width: 200,
                       height: 200,
                     ),
