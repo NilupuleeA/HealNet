@@ -101,9 +101,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   children: [
 
                     Image.asset(
-                      "assets/HealNet.png",
-                      width: 200,
-                      height: 200,
+                      "assets/HealNet-removebg-preview.png",
+                      width: 250,
+                      height: 250,
                     ),
 
                     const SizedBox(height: 10),
