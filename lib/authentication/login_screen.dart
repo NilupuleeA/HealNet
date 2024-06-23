@@ -101,7 +101,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   children: [
 
                     Image.asset(
-                      "assets/uber.png",
+                      "assets/HealNet.png",
                       width: 200,
                       height: 200,
                     ),
