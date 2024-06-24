@@ -50,7 +50,7 @@ class HomePage extends StatelessWidget {
           mainAxisSpacing: 10,
           children: <Widget>[
             GestureDetector(
-              onTap: () => navigateToPage(context, const Page1()),
+              onTap: () => navigateToPage(context, const heartPage()),
               child: Container(
                 color: Colors.blue,
                 child: const Column(
@@ -76,7 +76,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             GestureDetector(
-              onTap: () => navigateToPage(context, const Page3()),
+              onTap: () => navigateToPage(context, const healingPage()),
               child: Container(
                 color: Colors.red,
                 child: const Column(
@@ -89,7 +89,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             GestureDetector(
-              onTap: () => navigateToPage(context, const Page4()),
+              onTap: () => navigateToPage(context, const fitnessPage()),
               child: Container(
                 color: Colors.orange,
                 child: const Column(
@@ -115,7 +115,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             GestureDetector(
-              onTap: () => navigateToPage(context, const Page6()),
+              onTap: () => navigateToPage(context, const wellnessPage()),
               child: Container(
                 color: Colors.teal,
                 child: const Column(
