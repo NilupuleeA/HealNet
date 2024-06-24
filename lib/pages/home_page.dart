@@ -63,7 +63,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             GestureDetector(
-              onTap: () => navigateToPage(context, const Page2()),
+              onTap: () => navigateToPage(context, const HospitalPage()),
               child: Container(
                 color: Colors.green,
                 child: const Column(
@@ -102,7 +102,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             GestureDetector(
-              onTap: () => navigateToPage(context, const Page5()),
+              onTap: () => navigateToPage(context, const PharmacyPage()),
               child: Container(
                 color: Colors.purple,
                 child: const Column(

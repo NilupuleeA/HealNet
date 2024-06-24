@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:healnet/authentication/signup_screen.dart';
+//import 'package:healnet/authentication/signup_screen.dart';
+import 'package:healnet/pages/home_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -26,7 +27,7 @@ class MainApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: Colors.black,
       ),
-      home: const SignUpScreen(), // Ensure SignUpScreen is a StatelessWidget or StatefulWidget
+      home: const HomePage(), // Ensure SignUpScreen is a StatelessWidget or StatefulWidget
     );
   }
 }
