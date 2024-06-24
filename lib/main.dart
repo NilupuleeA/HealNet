@@ -6,11 +6,11 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: 'AIzaSyBol_07zbccp0_N_hJs-LCOREuuueFpwy0',
-      appId: '1:54472037214:android:9f295cbd246e2e348975cf',
-      messagingSenderId: '54472037214',
-      projectId: 'healnet-d37f5',
-      storageBucket: 'healnet-d37f5.appspot.com',
+      apiKey: 'AIzaSyDH209QuQ6PoXS1ogyQlsuMj9iM-sW_qOo',
+      appId: '1:235891692608:android:488e0d70c8e5856ad7bba5',
+      messagingSenderId: '235891692608',
+      projectId: 'healnet-661e8',
+      storageBucket: 'healnet-661e8.appspot.com',
     )
   );runApp(const MainApp());
 }

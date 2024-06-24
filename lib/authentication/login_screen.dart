@@ -45,7 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
     showDialog(
     context: context,
     barrierDismissible: false,
-    builder: (BuildContext context) => const LoadingDialog(messageText: "Allowing you to log in..."),
+    builder: (BuildContext context) => const LoadingDialog(messageText: "Logining in..."),
   );
 
   try {
@@ -65,7 +65,7 @@ class _LoginScreenState extends State<LoginScreen> {
       {
         if(snap.snapshot.value != null){
           if((snap.snapshot.value as Map)["blockStatus"]=="no"){
-            Navigator.push(context, MaterialPageRoute(builder: (c) => const HomePage()));
+            Navigator.push(context, MaterialPageRoute(builder: (c) => const HomePage())); 
           }
           else{
             FirebaseAuth.instance.signOut();
