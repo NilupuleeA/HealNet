@@ -10,7 +10,6 @@ class healingPage extends StatelessWidget {
         title: const Text('Healing Page'),
       ),
       body: Center(
-        child: Image.asset('assets/Images/3.jpeg'),
       ),
     );
   }

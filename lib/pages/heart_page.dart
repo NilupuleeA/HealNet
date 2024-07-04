@@ -10,7 +10,7 @@ class heartPage extends StatelessWidget {
         title: const Text('Heart Page'),
       ),
       body: Center(
-        child: Image.asset('assets/Images/1.jpeg'),
+       
       ),
     );
   }

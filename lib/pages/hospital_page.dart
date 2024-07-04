@@ -10,7 +10,7 @@ class HospitalPage extends StatelessWidget {
         title: const Text('Hospital Page'),
       ),
       body: Center(
-        child: Image.asset('assets/Images/4.jpeg'),
+        
       ),
     );
   }

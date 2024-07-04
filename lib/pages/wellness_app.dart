@@ -11,7 +11,7 @@ class wellnessPage extends StatelessWidget {
         title: const Text('Wellness Page'),
       ),
       body: Center(
-        child: Image.asset('assets/Images/6.jpeg'),
+       
       ),
     );
   }
