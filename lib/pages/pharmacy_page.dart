@@ -106,13 +106,13 @@ class AboutTab extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Text(
-            'Address:  390/F, Kiriwaththuduwa Rd, Kahathuduwa, Gonapola Junction',
+            'Address:  390/F, Healnet hospital, Colombo',
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 16),
           ),
           SizedBox(height: 10),
           Text(
-            'Phone:  (+94) 112-704-409',
+            'Phone:  (+94) 112-444-999',
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 16),
           ),
